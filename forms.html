@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application form</title>
+</head>
+
+<body>
+    <form action="./submission.html" method="post">
+        <!-- text input -->
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" required />
+        <br><br>
+        <!-- email input -->
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required />
+        <br><br>
+        <!-- phonenumber input -->
+        <label for="phonenumber">Phonenumber:</label>
+        <br>
+        <input type="phonenumber" id="phonenumber" name="phonenumber" required />
+        <br><br>
+        <!-- files input -->
+        <label for="file">CV:</label>
+        <br>
+        <input type="file" id="file" name="file" required />
+        <br><br>
+        <!-- checkbox input -->
+        <label for="choice">Qualification</label>
+        <br>
+        <input type="checkbox" name="choice" value="High School Diploma" />High School Diploma
+        <input type="checkbox" name="choice" value="Bachelor's Degree" />Bachelor's Degree
+        <input type="checkbox" name="choice" value="Master's Degree" />Master's Degree
+        <input type="checkbox" name="choice" value="Ph.D." />Ph.D.
+        <br><br>
+        <!-- radio button -->
+        <label for="choice">Employment type</label>
+        <br>
+        <input type="radio" name="choice" value="Full-time" />Full-time
+        <input type="radio" name="choice" value="Part-time" />Part-time
+        <input type="radio" name="choice" value="Contract" />Contract
+        <br><br>
+        <!-- select button -->
+        <label for="choice">Job Position</label>
+        <select id="choice" name="choice">
+            <option value="Professor">Professor</option>
+            <option value="Associate Professor">Associate Professor</option>
+            <option value="Senior Lecturer">Senior Lecturer</option>
+            <option value="Lecturer I">Lecturer I</option>
+            <option value="Research Manager">Research Manager</option>
+            <option value="Research Associate">Research Associate</option>
+            <option value="Research Assistant">Research Assistant</option>
+        </select>
+        <br><br>
+        <!-- submit button -->
+        <button type="submit">submit</button>
+        <!-- reset button -->
+        <button type="reset">reset</button>
+        <br><br>
+    </form>
+</body>
+
+</html>
